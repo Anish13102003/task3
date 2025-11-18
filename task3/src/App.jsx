@@ -1,35 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Poster from "./assets/images/maxresdefault.jpg"
+import Cards from "./cards"
 
-function App() {
-  const [count, setCount] = useState(0)
 
-  return (
+const App =()=>{
+  const sure ="Jackie Chan Adventures..."
+  const year ="2000"
+  return(
     <>
+    
+    <div className="parent"> 
+      <h1 style={{backgroundColor:"black",color:"white",display:"flex",justifyContent:"center",padding:"10px"}}>{sure} {year}</h1></div>
+     <div className="post"> 
+      <img style={{height:"700px",width:"1530px",margin:"15px"}} src={Poster}/>
+      </div>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+        <h2><i>You can watch Jackie Chan Adventures on streaming services like Netflix and Crunchyroll,
+         and you can also purchase episodes or seasons from platforms like Prime Video, Apple TV, and Google Play.
+          Some seasons are also available on platforms like YouTube.</i> </h2></div>
+      <section> <Cards/></section>
 
+    </>
+   
+  )
+  
+}
 export default App
