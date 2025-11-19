@@ -1,11 +1,20 @@
+import uncle from "./assets/images/uncle.jpg"
+import Bheema from "./assets/images/bima.webp"
+import walter from "./assets/images/walter.jpeg"
+import juli from "./assets/images/juli.webp"
+import jackie from "./assets/images/jackjpg.jpg"
+
+
+
+
 
 const Cards = () => {
   const title = [
-    {Name:"jackie", Role:"Hero", Profession:"archaeologist", img:"https://c8.alamy.com/comp/HDB3D2/jackie-chan-adventures-from-left-jade-chan-jackie-chan-2000-05-columbia-HDB3D2.jpg"},
-    {Name:"juli", Role:"cousin", Profession:"child", img:"https://static.wikia.nocookie.net/adventures-of-chris-and-tifa/images/..."},
-    {Name:"Uncle", Role:"Magician", Profession:"retal shop", img:"../assets/images/uncle.jpg"},
-    {Name:"Bheema", Role:"Villain", Profession:"servant", img:"./assets/images/bima.webp"},
-    {Name:"walter", Role:"Villain", Profession:"robbery", img:"./assets/images/bima.webp"},
+    {Name:"jackie", Role:"Hero", Profession:"archaeologist", img:jackie},
+    {Name:"juli", Role:"cousin", Profession:"child", img:juli},
+    {Name:"Uncle", Role:"Magician", Profession:"retal shop", img:uncle},
+    {Name:"Bheema", Role:"Villain", Profession:"servant", img:Bheema},
+    {Name:"walter", Role:"Villain", Profession:"robbery", img:walter},
     {Name:"captain black", Role:"police", Profession:"detective", img:"./assets/images/bima.webp"},
   ];
 
