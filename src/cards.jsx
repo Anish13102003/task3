@@ -3,6 +3,7 @@ import Bheema from "./assets/images/bima.webp"
 import walter from "./assets/images/walter.jpeg"
 import juli from "./assets/images/juli.webp"
 import jackie from "./assets/images/jackjpg.jpg"
+import cap from "./assets/images/captainjpg.jpg"
 
 
 
@@ -15,7 +16,9 @@ const Cards = () => {
     {Name:"Uncle", Role:"Magician", Profession:"retal shop", img:uncle},
     {Name:"Bheema", Role:"Villain", Profession:"servant", img:Bheema},
     {Name:"walter", Role:"Villain", Profession:"robbery", img:walter},
-    {Name:"captain black", Role:"police", Profession:"detective", img:"./assets/images/bima.webp"},
+    {Name:"captain black", Role:"police", Profession:"detective", img:cap},
+  //  {Name:"captain black", Role:"police", Profession:"detective", img:"./assets/images/bima.webp"},
+
   ];
 
 

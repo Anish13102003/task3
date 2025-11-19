@@ -10,5 +10,9 @@
 }
 .parent{
   background-color: rgb(213, 19, 19);
-  color: black;
+  color: rgb(165, 28, 147);
+}
+.para{
+  background-color: chartreuse;
+  margin-bottom: 40px;
 }
