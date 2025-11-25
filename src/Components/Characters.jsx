@@ -5,8 +5,8 @@ import juli from "../assets/images/juli.webp";
 import jackie from "../assets/images/jackjpg.jpg";
 import cap from "../assets/images/captainjpg.jpg";
 
-const Cards = () => {
-  const characters = [
+const Characters = () => {
+  const characterscard = [
     { name: "Jackie", role: "Hero", job: "Archaeologist", img: jackie },
     { name: "Juli", role: "Cousin", job: "Child", img: juli },
     { name: "Uncle", role: "Magician", job: "Artifact Expert", img: uncle },
@@ -17,7 +17,7 @@ const Cards = () => {
 
   return (
     <div id="characters" className="cards-container">
-      {characters.map((chr, i) => (
+      {characterscard.map((chr, i) => (
         <div className="card" key={i}>
           <img src={chr.img} alt={chr.name} />
           <h2>{chr.name}</h2>
@@ -30,4 +30,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+export default Characters;
